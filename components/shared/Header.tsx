@@ -25,7 +25,7 @@ function Header() {
                         <MobileNav />
                     </SignedIn>
                     <SignedOut>
-                        <Button asChild className="rounded-full bg-blue-700" size="lg">
+                        <Button asChild className="rounded-full" size="lg">
                             <Link href="/sign-in">Login</Link>
                         </Button>
                     </SignedOut>
